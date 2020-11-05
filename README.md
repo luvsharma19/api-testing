@@ -16,17 +16,17 @@ In a test case, you only need to call the HTTP utility class methods to perform 
 
 Please download the code from this repository and make sure you have python verion greater or equal to 2.7 installed on your system. 
 
-Go inside the python-api-tester directory
+- Go inside the python-api-tester directory
 
-cd python-api-tester
+  cd python-api-tester
 
-Run the following command to install the dependencies listed in setup.py
+- Run the following command to install the dependencies listed in setup.py
 
-python setup.py install
+  python setup.py install
 
-Run the following commands to run the test cases written under the "tests" module
+- Run the following commands to run the test cases written under the "tests" module
 
-pytest .
+  pytest .
 
 
 A sample test for creating a user has been added in the repo. Please refer the code files in the repo. All the Pytest commands will work for this testing framework also.
