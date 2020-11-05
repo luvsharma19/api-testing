@@ -24,7 +24,7 @@ Please download the code from this repository and make sure you have python veri
 
   python setup.py install
 
-- Run the following commands to run the test cases written under the "tests" module
+- Run the following command to run the test cases written under the "tests" module
 
   pytest .
 
