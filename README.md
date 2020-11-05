@@ -1,4 +1,4 @@
-# API Testing framework for functional testing of REST APIs. 
+# API Testing framework for functional testing of REST APIs
 
 ## Get started with writing API tests in an easy and simplified way. No boilerplate code required.
 
