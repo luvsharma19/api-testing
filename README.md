@@ -29,7 +29,7 @@ Please download the code from this repository and make sure you have python vers
   pytest .
 
 
-A sample test for creating a user has been added in the repo. Please refer the code files in the repo. All the Pytest commands will work for this testing framework also.
+A sample test for creating a user has been added in the repo. Please refer to the code files in the repo. All the Pytest commands will work for this testing framework also.
 
 
 Please feel free to provide you feedback and contribute to this project by creating a pull request. You can also reach me via email - luvsharma1931@gmail.com
