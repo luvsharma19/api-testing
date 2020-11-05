@@ -1,6 +1,6 @@
 # Testing framework created using Python for functional testing of REST APIs. 
 
-## Get started with writing API tests in a easy and simplified way. No boiler plate code required.
+## Get started with writing API tests in a easy and simplified way. No boilerplate code required.
 
 This testing framework created using python make it simple to write and  maintain tests for REST APIs without worrying about writing extra boilerplate code. 
 
@@ -16,11 +16,11 @@ In a test case, you only need to call the HTTP utility class methods to perform 
 
 Please download the code from this repository and make sure you have python verion greater or equal to 2.7 installed on your system. 
 
-- Go inside the python-api-tester directory
+Go inside the python-api-tester directory
 
 cd python-api-tester
 
-- Run the following command to install the dependencies listed in setup.py
+Run the following command to install the dependencies listed in setup.py
 
 python setup.py install
 
