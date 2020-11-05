@@ -11,3 +11,24 @@ All the reusable fucntions like HTTP server methods are provided under the HTTP 
 I have used Pytest fixtures to implement the HTTP utility class and Authentication helper class. Before a test case runs, the Authentication helper class authenticates user and fetches the authorization token. Then, Http utiliy class initialized and the authorization token is set in the request headers.
 
 In a test case, you only need to call the HTTP utility class methods to perform the REST API operation and assert the result. 
+
+## How to run the tests
+
+Please download the code from this repository and make sure you have python verion greater or equal to 2.7 installed on your system. 
+
+- Go inside the python-api-tester directory
+
+cd python-api-tester
+
+- Run the following command to install the dependencies listed in setup.py
+
+python setup.py install
+
+Run the following commands to run the test cases written under the "tests" module
+
+pytest .
+
+
+A sample test for creating a user has been added in the repo. Please refer the code files in the repo. All the Pytest commands will work for this testing framework also.
+
+
