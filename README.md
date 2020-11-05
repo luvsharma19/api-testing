@@ -14,7 +14,7 @@ In a test case, you only need to call the HTTP utility class methods to perform 
 
 ## How to run the tests
 
-Please download the code from this repository and make sure you have python verion greater or equal to 2.7 installed on your system. 
+Please download the code from this repository and make sure you have python version greater or equal to 2.7 installed on your system. 
 
 - Go inside the python-api-tester directory
 
