@@ -1,0 +1,8 @@
+{
+  "requestBody": {
+    "firstName": "Luv",
+    "lastName": "Sharma",
+    "age": 26,
+    "gender": "M"
+  }
+}
