@@ -6,11 +6,11 @@ This testing framework created using python make it simple to write and  maintai
 
 You can mention the REST API server details like server address, port number and credentials in the global configuation file and then directly start writing test cases under tests folder. 
 
-All the reusable fucntions like HTTP server methods are provided under the HTTP utility class. There is a Authentication helper class also available for authentication of user and fetching authorization token from the API server.
+All the reusable functions like HTTP server methods are provided under the HTTP utility class. There is a Authentication helper class also available for authentication of user and fetching authorization token from the API server.
 
-I have used Pytest fixtures to implement the HTTP utility class and Authentication helper class. Before a test case runs, the Authentication helper class authenticates user and fetches the authorization token. Then, Http utiliy class initialized and the authorization token is set in the request headers.
+I have used Pytest fixtures to implement the setup and teardown methods from HTTP utility class and Authentication helper class. Before a test case runs, the Authentication helper class authenticates user and fetches the authorization token. Then, the Http utiliy class is initialized and the authorization token is set in the request headers. After the test case run is completed, the authorization token is deleted also from the API server.
 
-In a test case, you only need to call the HTTP utility class methods to perform the REST API operation and assert the result. 
+In a test case, you only need to call the HTTP utility class methods to perform the REST API operation and assert the result.
 
 ## How to run the tests
 
