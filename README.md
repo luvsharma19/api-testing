@@ -1,2 +1,3 @@
-# python-api-tester
-Testing Framework created using Python for functional testing of REST APIs
+# Testing framework created using Python for functional testing of REST APIs. Ready to use, no boiler plate code required.
+
+This testing framework created using python make it simple to write and  maintain tests for REST APIs without worrying about writing extra boilerplate code . You can mention the REST API server details like server address, port number and credentials in the global configuation file and then directly start writing test cases under tests folder. All the HTTP server methods are provided in Utils. I have used Pytest fixture to get the authorization token from the API server and initialize the HTTP server class. So, before evry test class runs, a new authorization token will be fetched and http methods will be created with authorizatio token already set in the headers. After the running of test cases has completed in a test class, the authorization token will be deleted also.
