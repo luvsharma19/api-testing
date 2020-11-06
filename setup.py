@@ -6,7 +6,7 @@ with open("README.md", "r") as readme_file:
 setup(name='api-testing',
       description='API Testing framework for functional testing of REST APIs',
       url='https://github.com/luvsharma19/api-testing',
-      version='1.0.1',
+      version='1.0.2',
       author='luv sharma',
       license='MIT',
       long_description=long_description,
