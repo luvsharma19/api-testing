@@ -23,6 +23,6 @@ setup(name='api-testing',
     project_urls={
     'Source': 'https://github.com/luvsharma19/api-testing'
 },
-    python_requires='>=3.7',
+    python_requires='>=2.7',
     packages=find_packages(),
     install_requires=['requests', 'flake8'])
