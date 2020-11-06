@@ -16,13 +16,12 @@ setup(name='api-testing',
         "License :: OSI Approved :: MIT License",
         "Topic :: Software Development :: Testing",
         "Topic :: Software Development :: Testing :: Acceptance",
-        "Programming Language :: Python :: 2.7",
-        "Programming Language :: Python :: 3"
+        "Programming Language :: Python :: 3.7"
     ],
     keywords='rest api testing, api testing, api tests, rest api, testing, pytest',
     project_urls={
     'Source': 'https://github.com/luvsharma19/api-testing'
 },
-    python_requires='>=2.7',
+    python_requires='>=3.7',
     packages=find_packages(),
-    install_requires=['requests', 'flake8'])
+    install_requires=['requests', 'flake8', 'pytest'])
