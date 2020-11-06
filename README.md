@@ -14,15 +14,19 @@ You can start writing the test cases directly and call the HTTP utility class me
 
 ## How to run the tests
 
-Please make sure you have python version greater than or equal to 2.7 installed on your system. You can install it from official python website: https://www.python.org/downloads/release/python-2718/
+Please make sure you have python version greater than or equal to 3.7 installed on your system. You can install it from official python website: https://www.python.org/downloads/release/python-379/
 
-- Go to the "api-testing" directory location
+- Download ot clone the code from the api-testing repository to your system
+
+  https://github.com/luvsharma19/api-testing  
+
+- Go to the directory location of downloaded or cloned code folder - "api-testing"
 
   cd api-testing
 
-- Run the following command to install the dependencies listed in setup.py
+- Run the following command to install the dependencies listed in requirements.txt
 
-  python setup.py install
+  pip install -r requirements.txt
 
 - Write test cases under the folder "tests". ( A example test case for creating a user is already present in the folder )
 
