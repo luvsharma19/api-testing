@@ -1,5 +1,7 @@
 # api-testing: API Testing framework for functional testing of REST APIs
 
+pypi link - https://pypi.org/project/api-testing/
+
 ## Get started with writing API tests in an easy and simplified way. No boilerplate code required.
 
 This API testing framework created using python make it simple to write and  maintain tests for REST APIs without worrying about writing extra boilerplate code. 
