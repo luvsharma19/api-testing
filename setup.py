@@ -6,7 +6,7 @@ with open("README.md", "r") as readme_file:
 setup(name='api-testing',
       description='API Testing framework for functional testing of REST APIs',
       url='https://github.com/luvsharma19/api-testing',
-      version='1.0.0',
+      version='1.0.1',
       author='luv sharma',
       license='MIT',
       long_description=long_description,
@@ -20,7 +20,7 @@ setup(name='api-testing',
     ],
     keywords='rest api testing, api testing, api tests, rest api, testing, pytest',
     project_urls={
-    'Source': 'https://github.com/luvsharma19/api-testing'
+    'Source code on GitHub': 'https://github.com/luvsharma19/api-testing'
 },
     python_requires='>=3.7',
     packages=find_packages(),
