@@ -8,7 +8,7 @@ Get started with writing API tests in an easy and simplified way. No boilerplate
 
 - This API testing framework created using python make it `simple to write and  maintain tests` for REST APIs without worrying about writing extra boilerplate code.
 
-- You can mention the REST API server details like server address, port number and credentials in the global configuation file and then directly start writing test cases under tests folder. 
+- You can mention the REST API server details like server address, port number and credentials in the `global configuation file` and then directly start writing test cases under tests folder. 
 
 - All the reusable functions like `HTTP server methods` are provided under the HTTP utility class. There is a `Authentication helper` class also available for authentication of user and fetching authorization token from the API server.
 
