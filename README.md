@@ -46,4 +46,4 @@ Please make sure you have python version greater than or equal to 3.7 installed 
 
 You can go through the folder structure of the api-testing module to get familier with testing framework. Also, all the Pytest commands will work for this testing framework also.
 
-Please feel free to provide you feedback and contribute to this project by creating a pull request. You can also reach me via email - luvsharma1931@yahoo.com
+Please feel free to provide your feedback and contribute to this project by creating a pull request. You can also reach me via email - luvsharma1931@yahoo.com
